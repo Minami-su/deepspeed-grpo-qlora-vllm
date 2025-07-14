@@ -1,0 +1,7 @@
+{"time":"2025-07-13T10:03:16.346636645+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250713_100316-hlwuemnk/logs/debug-core.log"}
+{"time":"2025-07-13T10:03:18.993863202+08:00","level":"INFO","msg":"created new stream","id":"hlwuemnk"}
+{"time":"2025-07-13T10:03:18.993903082+08:00","level":"INFO","msg":"stream: started","id":"hlwuemnk"}
+{"time":"2025-07-13T10:03:18.993931445+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"hlwuemnk"}
+{"time":"2025-07-13T10:03:18.993965361+08:00","level":"INFO","msg":"handler: started","stream_id":"hlwuemnk"}
+{"time":"2025-07-13T10:03:18.993972233+08:00","level":"INFO","msg":"sender: started","stream_id":"hlwuemnk"}
+{"time":"2025-07-13T10:03:19.340296398+08:00","level":"INFO","msg":"Starting system monitor"}

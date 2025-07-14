@@ -1,0 +1,10 @@
+{"time":"2025-07-14T11:11:39.283871079+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250714_111139-cyu7jwrg/logs/debug-core.log"}
+{"time":"2025-07-14T11:11:43.134255975+08:00","level":"INFO","msg":"created new stream","id":"cyu7jwrg"}
+{"time":"2025-07-14T11:11:43.134992955+08:00","level":"INFO","msg":"stream: started","id":"cyu7jwrg"}
+{"time":"2025-07-14T11:11:43.135022299+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"cyu7jwrg"}
+{"time":"2025-07-14T11:11:43.135059075+08:00","level":"INFO","msg":"handler: started","stream_id":"cyu7jwrg"}
+{"time":"2025-07-14T11:11:43.135079699+08:00","level":"INFO","msg":"sender: started","stream_id":"cyu7jwrg"}
+{"time":"2025-07-14T11:11:43.560394489+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-14T11:19:42.87340268+08:00","level":"INFO","msg":"stream: closing","id":"cyu7jwrg"}
+{"time":"2025-07-14T11:19:42.873442447+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-14T11:19:42.873481294+08:00","level":"INFO","msg":"Stopped system monitor"}

@@ -1,0 +1,99 @@
+  0%|          | 0/375 [00:00<?, ?it/s]/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py:680: FutureWarning: FSDP.state_dict_type() and FSDP.set_state_dict_type() are being deprecated. Please use APIs, get_state_dict() and set_state_dict(), which can support different parallelisms, FSDP1, FSDP2, DDP. API doc: https://pytorch.org/docs/stable/distributed.checkpoint.html#torch.distributed.checkpoint.state_dict.get_state_dict .Tutorial: https://pytorch.org/tutorials/recipes/distributed_checkpoint_recipe.html .
+  warnings.warn(
+Process 0 finished weight gathering, waiting at barrier...
+Process 0 passed the first barrier.
+Main process is now sending weights to vLLM server...
+Moving LoRA weights to target device: cuda:0
+All LoRA parameters sent. Applying adapter on vLLM server...
+Traceback (most recent call last):
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 294, in <module>
+    main(script_args, training_args, model_args )
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 258, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3730, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+    return func(self, *args, **kwargs)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1231, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1324, in _generate_and_score_completions
+    self._move_lora_to_vllm()
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+    return func(self, *args, **kwargs)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1151, in _move_lora_to_vllm
+    self.vllm_client.reset_prefix_cache()
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/vllm_client.py", line 334, in reset_prefix_cache
+    response = self.session.post(url)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 294, in <module>
+[rank0]:     main(script_args, training_args, model_args )
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 258, in main
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=checkpoint)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3730, in training_step
+[rank0]:     inputs = self._prepare_inputs(inputs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank0]:     return func(self, *args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1231, in _prepare_inputs
+[rank0]:     generation_batch = self._generate_and_score_completions(generation_batch)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1324, in _generate_and_score_completions
+[rank0]:     self._move_lora_to_vllm()
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank0]:     return func(self, *args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1151, in _move_lora_to_vllm
+[rank0]:     self.vllm_client.reset_prefix_cache()
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/vllm_client.py", line 334, in reset_prefix_cache
+[rank0]:     response = self.session.post(url)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/requests/sessions.py", line 637, in post
+[rank0]:     return self.request("POST", url, data=data, json=json, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+[rank0]:     resp = self.send(prep, **send_kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+[rank0]:     r = adapter.send(request, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+[rank0]:     resp = conn.urlopen(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+[rank0]:     response = self._make_request(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+[rank0]:     response = conn.getresponse()
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/urllib3/connection.py", line 516, in getresponse
+[rank0]:     httplib_response = super().getresponse()
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/http/client.py", line 1375, in getresponse
+[rank0]:     response.begin()
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/http/client.py", line 318, in begin
+[rank0]:     version, status, reason = self._read_status()
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/http/client.py", line 279, in _read_status
+[rank0]:     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/socket.py", line 705, in readinto
+[rank0]:     return self._sock.recv_into(b)
+[rank0]: KeyboardInterrupt

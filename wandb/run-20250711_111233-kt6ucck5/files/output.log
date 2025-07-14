@@ -1,0 +1,269 @@
+  0%|          | 0/279 [00:00<?, ?it/s]
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+2025-07-11 11:12:42 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: ['0 \\cr }']
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+2025-07-11 11:12:42 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [4, '4']
+gold_parsed: [5, '5']
+reward: 0.0
+2025-07-11 11:12:42 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [Eq(b, 3), 'b = 3']
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+2025-07-11 11:12:42 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [1, '\\frac{1}{1}']
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+2025-07-11 11:12:42 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+2025-07-11 11:12:42 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [{Eq(a/b, 2), Eq(b/c, 3/4)}, 'a \\div b = 2 and b \\div c = \\frac{3}{4}']
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+2025-07-11 11:12:42 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [1/2, '\\frac{1}{2}']
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+2025-07-11 11:12:42 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [Eq(c/a, 4/3), 'c \\div a = \\frac{4}{3}']
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+
+accuracy rewards: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+----------------------------------------------------------------------------------------------------
+
+format rewards: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 279, in <module>
+    main(script_args, training_args, model_args )
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 243, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3736, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/x_grpo_trainer.py", line 781, in compute_loss
+    per_token_logps = self._get_per_token_logps(model, input_ids, attention_mask, logits_to_keep)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/x_grpo_trainer.py", line 463, in _get_per_token_logps
+    logits = model(input_ids=input_ids, attention_mask=attention_mask, logits_to_keep=logits_to_keep + 1).logits
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 20, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2054, in forward
+    loss = self.module(*inputs, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1845, in _call_impl
+    return inner()
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1793, in inner
+    result = forward_call(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/utils/generic.py", line 965, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 823, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1845, in _call_impl
+    return inner()
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1793, in inner
+    result = forward_call(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/utils/generic.py", line 965, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 519, in forward
+    causal_mask = self._update_causal_mask(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 591, in _update_causal_mask
+    raise ValueError(
+ValueError: You are attempting to perform batched generation with padding_side='right' this may lead to unexpected behaviour for Flash Attention version of Qwen2. Make sure to  call `tokenizer.padding_side  = 'left'` before tokenizing the input.
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 279, in <module>
+[rank0]:     main(script_args, training_args, model_args )
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 243, in main
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=checkpoint)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3736, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/x_grpo_trainer.py", line 781, in compute_loss
+[rank0]:     per_token_logps = self._get_per_token_logps(model, input_ids, attention_mask, logits_to_keep)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/x_grpo_trainer.py", line 463, in _get_per_token_logps
+[rank0]:     logits = model(input_ids=input_ids, attention_mask=attention_mask, logits_to_keep=logits_to_keep + 1).logits
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 20, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2054, in forward
+[rank0]:     loss = self.module(*inputs, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1845, in _call_impl
+[rank0]:     return inner()
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1793, in inner
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/utils/generic.py", line 965, in wrapper
+[rank0]:     output = func(self, *args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+[rank0]:     return func(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 823, in forward
+[rank0]:     outputs: BaseModelOutputWithPast = self.model(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1845, in _call_impl
+[rank0]:     return inner()
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1793, in inner
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/utils/generic.py", line 965, in wrapper
+[rank0]:     output = func(self, *args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 519, in forward
+[rank0]:     causal_mask = self._update_causal_mask(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 591, in _update_causal_mask
+[rank0]:     raise ValueError(
+[rank0]: ValueError: You are attempting to perform batched generation with padding_side='right' this may lead to unexpected behaviour for Flash Attention version of Qwen2. Make sure to  call `tokenizer.padding_side  = 'left'` before tokenizing the input.

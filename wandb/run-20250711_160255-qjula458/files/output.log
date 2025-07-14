@@ -1,0 +1,235 @@
+  0%|          | 0/138 [00:00<?, ?it/s]
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+2025-07-11 16:03:00 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [i - 9 - 4, '-9-4+i']
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [49, '49']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [49, '49']
+reward: 0.0
+
+accuracy rewards: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+----------------------------------------------------------------------------------------------------
+
+format rewards: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+{'loss': 0.0, 'grad_norm': 0.0, 'learning_rate': 0.0, 'num_tokens': 25608.0, 'completions/mean_length': 128.0, 'completions/min_length': 128.0, 'completions/max_length': 128.0, 'completions/clipped_ratio': 1.0, 'completions/mean_terminated_length': 0.0, 'completions/min_terminated_length': 0.0, 'completions/max_terminated_length': 0.0, 'rewards/accuracy_reward/mean': 0.0, 'rewards/accuracy_reward/std': 0.0, 'rewards/format_reward/mean': 0.0, 'rewards/format_reward/std': 0.0, 'reward': 0.0, 'reward_std': 0.0, 'frac_reward_zero_std': 1.0, 'clip_ratio/low_mean': 0.0, 'clip_ratio/low_min': 0.0, 'clip_ratio/high_mean': 0.0, 'clip_ratio/high_max': 0.0, 'clip_ratio/region_mean': 0.0, 'epoch': 0.02}
+```python
+from transformers import AutoModelForCausalLM
+
+# Load original tied model
+model = AutoModelForCausalLM.from_pretrained("google/gemma-2-2b-it", tie_word_embeddings=False)
+
+# Set the randomly initialized lm_head to the previously tied embeddings
+model.lm_head.weight.data = model.model.embed_tokens.weight.data.clone()
+
+# Save the untied model
+untied_model_dir = "dir/for/untied/model"
+model.save_pretrained(untied_model_dir)
+model.config.save_pretrained(untied_model_dir)
+
+# Now use the original model but in untied format
+model = AutoModelForCausalLM.from_pretrained(untied_model_dir)
+```
+
+  warnings.warn(
+Traceback (most recent call last):
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 289, in <module>
+    main(script_args, training_args, model_args )
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 253, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3730, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+    return func(self, *args, **kwargs)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/x_grpo_trainer.py", line 953, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/x_grpo_trainer.py", line 1045, in _generate_and_score_completions
+    self._move_model_to_vllm()
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+    return func(self, *args, **kwargs)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/x_grpo_trainer.py", line 905, in _move_model_to_vllm
+    self.vllm_client.update_named_param(name, param.data)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/vllm_client.py", line 282, in update_named_param
+    self.pynccl_comm.broadcast(weights, src=self.rank)
+AttributeError: 'VLLMClient' object has no attribute 'pynccl_comm'
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 289, in <module>
+[rank0]:     main(script_args, training_args, model_args )
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 253, in main
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=checkpoint)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3730, in training_step
+[rank0]:     inputs = self._prepare_inputs(inputs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank0]:     return func(self, *args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/x_grpo_trainer.py", line 953, in _prepare_inputs
+[rank0]:     generation_batch = self._generate_and_score_completions(generation_batch)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/x_grpo_trainer.py", line 1045, in _generate_and_score_completions
+[rank0]:     self._move_model_to_vllm()
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank0]:     return func(self, *args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/x_grpo_trainer.py", line 905, in _move_model_to_vllm
+[rank0]:     self.vllm_client.update_named_param(name, param.data)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/vllm_client.py", line 282, in update_named_param
+[rank0]:     self.pynccl_comm.broadcast(weights, src=self.rank)
+[rank0]: AttributeError: 'VLLMClient' object has no attribute 'pynccl_comm'

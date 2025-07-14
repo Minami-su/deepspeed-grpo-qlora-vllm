@@ -1,0 +1,11 @@
+{"time":"2025-07-13T00:15:31.587843821+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250713_001531-nfs9cwpi/logs/debug-core.log"}
+{"time":"2025-07-13T00:15:34.223724089+08:00","level":"INFO","msg":"created new stream","id":"nfs9cwpi"}
+{"time":"2025-07-13T00:15:34.224958142+08:00","level":"INFO","msg":"stream: started","id":"nfs9cwpi"}
+{"time":"2025-07-13T00:15:34.224987892+08:00","level":"INFO","msg":"sender: started","stream_id":"nfs9cwpi"}
+{"time":"2025-07-13T00:15:34.225003717+08:00","level":"INFO","msg":"handler: started","stream_id":"nfs9cwpi"}
+{"time":"2025-07-13T00:15:34.225012469+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"nfs9cwpi"}
+{"time":"2025-07-13T00:15:34.557300601+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-13T00:16:51.184074497+08:00","level":"INFO","msg":"stream: closing","id":"nfs9cwpi"}
+{"time":"2025-07-13T00:16:51.184114136+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-13T00:16:51.184167693+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-13T00:16:52.190804683+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

@@ -1,0 +1,7 @@
+{"time":"2025-07-13T09:40:39.147618385+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250713_094039-llahi5va/logs/debug-core.log"}
+{"time":"2025-07-13T09:40:41.604099151+08:00","level":"INFO","msg":"created new stream","id":"llahi5va"}
+{"time":"2025-07-13T09:40:41.604193072+08:00","level":"INFO","msg":"stream: started","id":"llahi5va"}
+{"time":"2025-07-13T09:40:41.60423678+08:00","level":"INFO","msg":"sender: started","stream_id":"llahi5va"}
+{"time":"2025-07-13T09:40:41.604238148+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"llahi5va"}
+{"time":"2025-07-13T09:40:41.604297074+08:00","level":"INFO","msg":"handler: started","stream_id":"llahi5va"}
+{"time":"2025-07-13T09:40:41.916395007+08:00","level":"INFO","msg":"Starting system monitor"}

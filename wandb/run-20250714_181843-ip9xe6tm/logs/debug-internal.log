@@ -1,0 +1,11 @@
+{"time":"2025-07-14T18:18:43.987349147+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250714_181843-ip9xe6tm/logs/debug-core.log"}
+{"time":"2025-07-14T18:18:48.02115015+08:00","level":"INFO","msg":"created new stream","id":"ip9xe6tm"}
+{"time":"2025-07-14T18:18:48.021204031+08:00","level":"INFO","msg":"stream: started","id":"ip9xe6tm"}
+{"time":"2025-07-14T18:18:48.02124238+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ip9xe6tm"}
+{"time":"2025-07-14T18:18:48.021257464+08:00","level":"INFO","msg":"handler: started","stream_id":"ip9xe6tm"}
+{"time":"2025-07-14T18:18:48.021244233+08:00","level":"INFO","msg":"sender: started","stream_id":"ip9xe6tm"}
+{"time":"2025-07-14T18:18:48.564494694+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-14T18:19:03.927150708+08:00","level":"INFO","msg":"stream: closing","id":"ip9xe6tm"}
+{"time":"2025-07-14T18:19:03.927244186+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-14T18:19:03.928495942+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-14T18:19:05.201776042+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

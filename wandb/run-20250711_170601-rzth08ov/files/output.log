@@ -1,0 +1,349 @@
+  0%|          | 0/375 [00:00<?, ?it/s]/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/peft/tuners/tuners_utils.py:392: UserWarning: Model with `tie_word_embeddings=True` and the tied_target_modules=['model.embed_tokens', 'lm_head'] are part of the adapter. This can lead to complications. You can opt to merge the adapter after cloning the weights (to untie the embeddings). You can untie the embeddings by loading the model with `tie_word_embeddings=False`. For example:
+```python
+from transformers import AutoModelForCausalLM
+
+# Load original tied model
+model = AutoModelForCausalLM.from_pretrained("google/gemma-2-2b-it", tie_word_embeddings=False)
+
+# Set the randomly initialized lm_head to the previously tied embeddings
+model.lm_head.weight.data = model.model.embed_tokens.weight.data.clone()
+
+# Save the untied model
+untied_model_dir = "dir/for/untied/model"
+model.save_pretrained(untied_model_dir)
+model.config.save_pretrained(untied_model_dir)
+
+# Now use the original model but in untied format
+model = AutoModelForCausalLM.from_pretrained(untied_model_dir)
+```
+
+  warnings.warn(
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+2025-07-11 17:06:08 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: ['rent a room. nightclub perks sin an annual sale of 20']
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+2025-07-11 17:06:08 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [{2, 3}, '2, 3']
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+2025-07-11 17:06:08 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [9, '9']
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+
+accuracy rewards: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+----------------------------------------------------------------------------------------------------
+
+format rewards: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Traceback (most recent call last):
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 307, in <module>
+    main(script_args, training_args, model_args )
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 271, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3782, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/accelerate/accelerator.py", line 2465, in backward
+    self.deepspeed_engine_wrapped.backward(loss, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/accelerate/utils/deepspeed.py", line 266, in backward
+    self.engine.backward(loss, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 20, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2216, in backward
+    self._do_optimizer_backward(loss, retain_graph)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2162, in _do_optimizer_backward
+    self.optimizer.backward(loss, retain_graph=retain_graph)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 20, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/runtime/zero/stage3.py", line 2280, in backward
+    self.loss_scaler.backward(loss.float(), retain_graph=retain_graph)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/runtime/fp16/loss_scaler.py", line 63, in backward
+    scaled_loss.backward(retain_graph=retain_graph)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/autograd/function.py", line 307, in apply
+    return user_fn(self, *args)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 549, in decorate_bwd
+    return bwd(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/runtime/zero/linear.py", line 80, in backward
+    input, weight, bias = ctx.saved_tensors
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 1129, in unpack_hook
+    frame.check_recomputed_tensors_match(gid)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 903, in check_recomputed_tensors_match
+    raise CheckpointError(
+torch.utils.checkpoint.CheckpointError: torch.utils.checkpoint: Recomputed values for the following tensors have different metadata than during the forward pass.
+tensor at position 4:
+saved metadata: {'shape': torch.Size([896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+tensor at position 6:
+saved metadata: {'shape': torch.Size([896, 896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+tensor at position 7:
+saved metadata: {'shape': torch.Size([896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+tensor at position 13:
+saved metadata: {'shape': torch.Size([128, 896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+tensor at position 14:
+saved metadata: {'shape': torch.Size([128]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+tensor at position 20:
+saved metadata: {'shape': torch.Size([128, 896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+tensor at position 21:
+saved metadata: {'shape': torch.Size([128]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+tensor at position 43:
+saved metadata: {'shape': torch.Size([896, 896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+tensor at position 52:
+saved metadata: {'shape': torch.Size([896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+tensor at position 54:
+saved metadata: {'shape': torch.Size([4864, 896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+tensor at position 61:
+saved metadata: {'shape': torch.Size([4864, 896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+tensor at position 69:
+saved metadata: {'shape': torch.Size([896, 4864]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 307, in <module>
+[rank0]:     main(script_args, training_args, model_args )
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 271, in main
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=checkpoint)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3782, in training_step
+[rank0]:     self.accelerator.backward(loss, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/accelerate/accelerator.py", line 2465, in backward
+[rank0]:     self.deepspeed_engine_wrapped.backward(loss, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/accelerate/utils/deepspeed.py", line 266, in backward
+[rank0]:     self.engine.backward(loss, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 20, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2216, in backward
+[rank0]:     self._do_optimizer_backward(loss, retain_graph)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2162, in _do_optimizer_backward
+[rank0]:     self.optimizer.backward(loss, retain_graph=retain_graph)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 20, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/runtime/zero/stage3.py", line 2280, in backward
+[rank0]:     self.loss_scaler.backward(loss.float(), retain_graph=retain_graph)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/runtime/fp16/loss_scaler.py", line 63, in backward
+[rank0]:     scaled_loss.backward(retain_graph=retain_graph)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
+[rank0]:     torch.autograd.backward(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+[rank0]:     _engine_run_backward(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+[rank0]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/autograd/function.py", line 307, in apply
+[rank0]:     return user_fn(self, *args)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 549, in decorate_bwd
+[rank0]:     return bwd(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/deepspeed/runtime/zero/linear.py", line 80, in backward
+[rank0]:     input, weight, bias = ctx.saved_tensors
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 1129, in unpack_hook
+[rank0]:     frame.check_recomputed_tensors_match(gid)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 903, in check_recomputed_tensors_match
+[rank0]:     raise CheckpointError(
+[rank0]: torch.utils.checkpoint.CheckpointError: torch.utils.checkpoint: Recomputed values for the following tensors have different metadata than during the forward pass.
+[rank0]: tensor at position 4:
+[rank0]: saved metadata: {'shape': torch.Size([896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: tensor at position 6:
+[rank0]: saved metadata: {'shape': torch.Size([896, 896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: tensor at position 7:
+[rank0]: saved metadata: {'shape': torch.Size([896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: tensor at position 13:
+[rank0]: saved metadata: {'shape': torch.Size([128, 896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: tensor at position 14:
+[rank0]: saved metadata: {'shape': torch.Size([128]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: tensor at position 20:
+[rank0]: saved metadata: {'shape': torch.Size([128, 896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: tensor at position 21:
+[rank0]: saved metadata: {'shape': torch.Size([128]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: tensor at position 43:
+[rank0]: saved metadata: {'shape': torch.Size([896, 896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: tensor at position 52:
+[rank0]: saved metadata: {'shape': torch.Size([896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: tensor at position 54:
+[rank0]: saved metadata: {'shape': torch.Size([4864, 896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: tensor at position 61:
+[rank0]: saved metadata: {'shape': torch.Size([4864, 896]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: tensor at position 69:
+[rank0]: saved metadata: {'shape': torch.Size([896, 4864]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}
+[rank0]: recomputed metadata: {'shape': torch.Size([0]), 'dtype': torch.bfloat16, 'device': device(type='cuda', index=0)}

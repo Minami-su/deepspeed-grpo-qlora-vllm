@@ -1,0 +1,20 @@
+{
+  "os": "Linux-5.15.0-138-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.13",
+  "startedAt": "2025-07-11T02:35:51.198633Z",
+  "args": [
+    "--config",
+    "recipes/X_R1_zero_0dot5B_config.yaml"
+  ],
+  "program": "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py",
+  "codePath": "src/x_r1/grpo.py",
+  "git": {
+    "remote": "https://github.com/dhcode-cpp/X-R1",
+    "commit": "03d16fdd9b82245bfa6b0a570e88331e29f3a0e8"
+  },
+  "email": "2012456373@qq.com",
+  "root": "/data/jcxy/haolu/workspace/frameworks/X-R1",
+  "host": "ubuntu",
+  "executable": "/data/jcxy/haolu/anaconda3/envs/haolu/bin/python3.10",
+  "codePathLocal": "src/x_r1/grpo.py"
+}

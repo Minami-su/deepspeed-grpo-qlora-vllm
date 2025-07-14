@@ -1,0 +1,7 @@
+{"time":"2025-07-13T10:37:00.315071342+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250713_103700-dx69dams/logs/debug-core.log"}
+{"time":"2025-07-13T10:37:02.974482084+08:00","level":"INFO","msg":"created new stream","id":"dx69dams"}
+{"time":"2025-07-13T10:37:02.975117424+08:00","level":"INFO","msg":"stream: started","id":"dx69dams"}
+{"time":"2025-07-13T10:37:02.975177513+08:00","level":"INFO","msg":"sender: started","stream_id":"dx69dams"}
+{"time":"2025-07-13T10:37:02.975177619+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"dx69dams"}
+{"time":"2025-07-13T10:37:02.975276246+08:00","level":"INFO","msg":"handler: started","stream_id":"dx69dams"}
+{"time":"2025-07-13T10:37:03.304412153+08:00","level":"INFO","msg":"Starting system monitor"}

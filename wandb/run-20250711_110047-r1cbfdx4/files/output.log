@@ -1,0 +1,202 @@
+  0%|          | 0/279 [00:00<?, ?it/s]
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+2025-07-11 11:00:58 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [8, '8']
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+2025-07-11 11:00:58 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [f*2*x - 1*2*f(x), 'f(2x) - 2f(x)']
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+2025-07-11 11:00:58 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [7, '7']
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+2025-07-11 11:00:58 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [1/2, '\\frac{1}{2}']
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+2025-07-11 11:00:58 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: ['\\text{(A)}~0.929 \\qquad \\text{(B)}~0.071']
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [2/3, '\\frac{2}{3}']
+reward: 0.0
+
+accuracy rewards: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+----------------------------------------------------------------------------------------------------
+
+format rewards: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 279, in <module>
+    main(script_args, training_args, model_args )
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 243, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3730, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/x_grpo_trainer.py", line 496, in _prepare_inputs
+    inputs = self._generate_and_score_completions(inputs)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/x_grpo_trainer.py", line 739, in _generate_and_score_completions
+    self._textual_logs["prompt"].extend(gather_object(prompts_text))
+AttributeError: 'XGRPOTrainer' object has no attribute '_textual_logs'
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 279, in <module>
+[rank0]:     main(script_args, training_args, model_args )
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/grpo.py", line 243, in main
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=checkpoint)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3730, in training_step
+[rank0]:     inputs = self._prepare_inputs(inputs)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/x_grpo_trainer.py", line 496, in _prepare_inputs
+[rank0]:     inputs = self._generate_and_score_completions(inputs)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/x_grpo_trainer.py", line 739, in _generate_and_score_completions
+[rank0]:     self._textual_logs["prompt"].extend(gather_object(prompts_text))
+[rank0]: AttributeError: 'XGRPOTrainer' object has no attribute '_textual_logs'

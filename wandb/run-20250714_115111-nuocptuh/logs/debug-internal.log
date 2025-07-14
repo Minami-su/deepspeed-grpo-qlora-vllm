@@ -1,0 +1,10 @@
+{"time":"2025-07-14T11:51:11.044474962+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250714_115111-nuocptuh/logs/debug-core.log"}
+{"time":"2025-07-14T11:51:13.21599531+08:00","level":"INFO","msg":"created new stream","id":"nuocptuh"}
+{"time":"2025-07-14T11:51:13.21683455+08:00","level":"INFO","msg":"stream: started","id":"nuocptuh"}
+{"time":"2025-07-14T11:51:13.216848409+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"nuocptuh"}
+{"time":"2025-07-14T11:51:13.216885923+08:00","level":"INFO","msg":"handler: started","stream_id":"nuocptuh"}
+{"time":"2025-07-14T11:51:13.21817932+08:00","level":"INFO","msg":"sender: started","stream_id":"nuocptuh"}
+{"time":"2025-07-14T11:51:13.607727741+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-14T12:00:07.948345396+08:00","level":"INFO","msg":"stream: closing","id":"nuocptuh"}
+{"time":"2025-07-14T12:00:07.948422501+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-14T12:00:07.949748614+08:00","level":"INFO","msg":"Stopped system monitor"}

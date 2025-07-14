@@ -1,0 +1,10 @@
+{"time":"2025-07-13T08:37:39.738017763+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250713_083739-1r8dnxv2/logs/debug-core.log"}
+{"time":"2025-07-13T08:37:41.776664334+08:00","level":"INFO","msg":"created new stream","id":"1r8dnxv2"}
+{"time":"2025-07-13T08:37:41.776710946+08:00","level":"INFO","msg":"stream: started","id":"1r8dnxv2"}
+{"time":"2025-07-13T08:37:41.776744218+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"1r8dnxv2"}
+{"time":"2025-07-13T08:37:41.776762479+08:00","level":"INFO","msg":"handler: started","stream_id":"1r8dnxv2"}
+{"time":"2025-07-13T08:37:41.776794462+08:00","level":"INFO","msg":"sender: started","stream_id":"1r8dnxv2"}
+{"time":"2025-07-13T08:37:42.32620102+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-13T09:00:16.986694357+08:00","level":"INFO","msg":"stream: closing","id":"1r8dnxv2"}
+{"time":"2025-07-13T09:00:16.986742468+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-13T09:00:16.986799402+08:00","level":"INFO","msg":"Stopped system monitor"}

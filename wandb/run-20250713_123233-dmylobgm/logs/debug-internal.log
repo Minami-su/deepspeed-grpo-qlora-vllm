@@ -1,0 +1,10 @@
+{"time":"2025-07-13T12:32:33.897039443+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250713_123233-dmylobgm/logs/debug-core.log"}
+{"time":"2025-07-13T12:32:38.149024494+08:00","level":"INFO","msg":"created new stream","id":"dmylobgm"}
+{"time":"2025-07-13T12:32:38.14906265+08:00","level":"INFO","msg":"stream: started","id":"dmylobgm"}
+{"time":"2025-07-13T12:32:38.149122106+08:00","level":"INFO","msg":"sender: started","stream_id":"dmylobgm"}
+{"time":"2025-07-13T12:32:38.149129209+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"dmylobgm"}
+{"time":"2025-07-13T12:32:38.149214532+08:00","level":"INFO","msg":"handler: started","stream_id":"dmylobgm"}
+{"time":"2025-07-13T12:32:38.524564844+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-13T12:35:51.888916753+08:00","level":"INFO","msg":"stream: closing","id":"dmylobgm"}
+{"time":"2025-07-13T12:35:51.888997038+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-13T12:35:51.889123964+08:00","level":"INFO","msg":"Stopped system monitor"}

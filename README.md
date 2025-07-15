@@ -5,6 +5,7 @@
 - 🔥support QLoRA GRPO Trainning you can save gpu memory about 30%
 
 ## Result
+
 Training the Qwen2-0.5B model with a stack of DeepSpeed ZeRO-3, QLoRA, GRPO, VLLM, and gradient checkpointing reduces GPU memory usage by 30% compared to a similar setup using standard LoRA. This memory saving is achieved with virtually no impact on training speed.
 
 With QLoRA (4-bit, double quantization, nf4, gradient checkpointing)
@@ -30,6 +31,9 @@ baseline
 <p align="left">
 <img width="644" height="276" alt="Pasted image 20250714185922" src="https://github.com/user-attachments/assets/9cd0a5f4-8e03-416d-a351-364d805b0667" />
 </p>
+### training detail
+
+<img width="1503" height="626" alt="image" src="https://github.com/user-attachments/assets/23015734-291b-4304-94ea-8775366bac82" />
 
 ### Benchmark Results (GSM8K)
 

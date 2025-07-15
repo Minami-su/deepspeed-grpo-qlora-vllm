@@ -31,11 +31,14 @@
 <img width="644" height="276" alt="Pasted image 20250714185922" src="https://github.com/user-attachments/assets/9cd0a5f4-8e03-416d-a351-364d805b0667" />
 </p>
 
-### Overview
-Qwen2.5-0.5B-X-R1 gsm8k   avg  
-			21.2    21.2
-Qwen2.5-0.5B-X-R1-QloraV3 gsm8k   avg  
-			26.2    26.2 
+### Benchmark Results (GSM8K)
+
+| Model Version | GSM8K Avg. Score |
+| :----------------------- | :----------------: |
+| `Qwen2-0.5B` | **14.2** |
+| `Qwen2-0.5B-X-R1` (Standard LoRA) | **21.2** |
+| `Qwen2-0.5B-X-R1-QLoRA-V3` (QLoRA) | **26.2** |
+
 Running Scripts:
 
 ```bash
@@ -84,6 +87,8 @@ pip install flash-attn
 ## About
 
 If you have any suggestions, please contact: 2012456373@qq.com
+QQ: 2012456373
+wechat a2012456373
 
 ## Acknowledge
 

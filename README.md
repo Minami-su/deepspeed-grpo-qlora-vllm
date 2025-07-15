@@ -119,12 +119,12 @@ wechat a2012456373
 ## Citation
 
 ```bib
-@misc{deng2025xr1,
-  author = {hang deng},
-  title = {X-R1},
+@misc{Minami-su2025grpo-qlora,
+  author = {Minami-su},
+  title = {deepspeed-grpo-qlora-vllm},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/dhcode-cpp/X-R1}}
+  howpublished = {\url{https://github.com/Minami-su/deepspeed-grpo-qlora-vllm}}
   year = {2025},
 }
 ```

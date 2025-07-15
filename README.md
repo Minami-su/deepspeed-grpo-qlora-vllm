@@ -154,7 +154,7 @@ wechat a2012456373
 
 ## Acknowledge
 
-[Open-R1](https://github.com/huggingface/open-r1), [TRL](https://github.com/huggingface/trl)
+[Open-R1](https://github.com/huggingface/open-r1), [TRL](https://github.com/huggingface/trl), [X-R1](https://github.com/dhcode-cpp/X-R1)
 
 ## Citation
 

@@ -5,27 +5,27 @@
 - 🔥support QLoRA GRPO Trainning you can save gpu memory about 30%
 
 ## Result
-训练模型Qwen2.5-0.5b，使用deepspeed-zero3+Qlora+GRPO+vllm+gradient_checkpointing的gpu内存使用量，相比deepspeed-zero3+lora+GRPO+vllm+gradient_checkpointing，的显存使用量能够节省30%，速度基本保持不变
+Training the Qwen2-0.5B model with a stack of DeepSpeed ZeRO-3, QLoRA, GRPO, VLLM, and gradient checkpointing reduces GPU memory usage by 30% compared to a similar setup using standard LoRA. This memory saving is achieved with virtually no impact on training speed.
 
-使用了load in 4bit  double quant nf4
+With QLoRA (4-bit, double quantization, nf4, gradient checkpointing)
 
 <p align="left">
 <img width="644" height="272" alt="Pasted image 20250715115423" src="https://github.com/user-attachments/assets/43f539d4-8639-45d2-928c-0b4d6fe4cd38" />
 </p>
 
-使用了load in 4bit 
+With QLoRA (4-bit, gradient checkpointing)
 
 <p align="left">
 <img width="647" height="280" alt="Pasted image 20250715102122" src="https://github.com/user-attachments/assets/53f4907f-4952-46e6-9669-feeb66ddd4d2" />
 </p>
 
-未使用Qlora的
+With gradient checkpointing
 
 <p align="left">
 <img width="640" height="278" alt="企业微信截图_17525510581488" src="https://github.com/user-attachments/assets/97fd1501-d1f5-4da0-a930-d30dc9e0991b" />
 </p>
 
-未使用Qlora，未使用gradient_checkpointing
+baseline
 
 <p align="left">
 <img width="644" height="276" alt="Pasted image 20250714185922" src="https://github.com/user-attachments/assets/9cd0a5f4-8e03-416d-a351-364d805b0667" />

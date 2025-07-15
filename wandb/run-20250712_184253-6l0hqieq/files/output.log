@@ -1,0 +1,23 @@
+  0%|          | 0/375 [00:00<?, ?it/s][INFO|trainer.py:2681] 2025-07-12 18:42:57,594 >>
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+  0%|          | 0/375 [00:00<?, ?it/s]
+{'train_runtime': 7.9501, 'train_samples_per_second': 283.015, 'train_steps_per_second': 47.169, 'train_loss': 0.0, 'epoch': 3.0}
+***** train metrics *****
+  total_flos               =        0GF
+  train_loss               =        0.0
+  train_runtime            = 0:00:07.95
+  train_samples            =        750
+  train_samples_per_second =    283.015
+  train_steps_per_second   =     47.169
+2025-07-12 18:42:57 - INFO - __main__ - *** Save model ***
+[INFO|trainer.py:3984] 2025-07-12 18:42:58,965 >> Saving model checkpoint to /data/jcxy/haolu/workspace/frameworks/X-R1/output/X-R1-test-Qlora
+/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/peft/utils/save_and_load.py:220: UserWarning: Setting `save_embedding_layers` to `True` as embedding layers found in `target_modules`.
+  warnings.warn("Setting `save_embedding_layers` to `True` as embedding layers found in `target_modules`.")
+[INFO|tokenization_utils_base.py:2510] 2025-07-12 18:43:00,414 >> tokenizer config file saved in /data/jcxy/haolu/workspace/frameworks/X-R1/output/X-R1-test-Qlora/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2519] 2025-07-12 18:43:00,414 >> Special tokens file saved in /data/jcxy/haolu/workspace/frameworks/X-R1/output/X-R1-test-Qlora/special_tokens_map.json
+2025-07-12 18:43:00 - INFO - __main__ - Model saved to /data/jcxy/haolu/workspace/frameworks/X-R1/output/X-R1-test-Qlora
+wandb: WARNING The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+[INFO|configuration_utils.py:419] 2025-07-12 18:43:00,630 >> Configuration saved in /data/jcxy/haolu/workspace/frameworks/X-R1/output/X-R1-test-Qlora/config.json

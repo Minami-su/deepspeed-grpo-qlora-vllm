@@ -1,0 +1,15 @@
+{"time":"2025-07-11T13:00:37.170634942+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250711_130037-lmbcp2a5/logs/debug-core.log"}
+{"time":"2025-07-11T13:00:40.798786479+08:00","level":"INFO","msg":"created new stream","id":"lmbcp2a5"}
+{"time":"2025-07-11T13:00:40.800128859+08:00","level":"INFO","msg":"stream: started","id":"lmbcp2a5"}
+{"time":"2025-07-11T13:00:40.800145511+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"lmbcp2a5"}
+{"time":"2025-07-11T13:00:40.800140923+08:00","level":"INFO","msg":"sender: started","stream_id":"lmbcp2a5"}
+{"time":"2025-07-11T13:00:40.800145562+08:00","level":"INFO","msg":"handler: started","stream_id":"lmbcp2a5"}
+{"time":"2025-07-11T13:00:41.488391054+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-11T13:01:05.795123593+08:00","level":"INFO","msg":"stream: closing","id":"lmbcp2a5"}
+{"time":"2025-07-11T13:01:05.795191939+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-11T13:01:05.795354876+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-11T13:01:06.805299882+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-11T13:01:09.478370246+08:00","level":"INFO","msg":"handler: closed","stream_id":"lmbcp2a5"}
+{"time":"2025-07-11T13:01:09.478462269+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lmbcp2a5"}
+{"time":"2025-07-11T13:01:09.478476942+08:00","level":"INFO","msg":"sender: closed","stream_id":"lmbcp2a5"}
+{"time":"2025-07-11T13:01:09.478582553+08:00","level":"INFO","msg":"stream: closed","id":"lmbcp2a5"}

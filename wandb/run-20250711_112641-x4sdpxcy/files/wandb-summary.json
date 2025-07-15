@@ -1,0 +1,1 @@
+{"_wandb":{"runtime":14},"profiling/Time taken: XGRPOTrainer.vLLM.generate":6.894403000362217,"_timestamp":1.752204414275136e+09,"_runtime":13.025891789,"_step":2,"train/global_step":0,"profiling/Time taken: XGRPOTrainer.accuracy_reward":0.1828096341341734,"profiling/Time taken: XGRPOTrainer.format_reward":0.000517786480486393}

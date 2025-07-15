@@ -1,0 +1,10 @@
+{"time":"2025-07-12T17:14:42.03303412+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250712_171442-bruqofbv/logs/debug-core.log"}
+{"time":"2025-07-12T17:14:44.07387304+08:00","level":"INFO","msg":"created new stream","id":"bruqofbv"}
+{"time":"2025-07-12T17:14:44.073979898+08:00","level":"INFO","msg":"stream: started","id":"bruqofbv"}
+{"time":"2025-07-12T17:14:44.07402893+08:00","level":"INFO","msg":"handler: started","stream_id":"bruqofbv"}
+{"time":"2025-07-12T17:14:44.074063354+08:00","level":"INFO","msg":"sender: started","stream_id":"bruqofbv"}
+{"time":"2025-07-12T17:14:44.074157397+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"bruqofbv"}
+{"time":"2025-07-12T17:14:44.408543516+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-12T17:18:14.759757757+08:00","level":"INFO","msg":"stream: closing","id":"bruqofbv"}
+{"time":"2025-07-12T17:18:14.759786439+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-12T17:18:14.759804647+08:00","level":"INFO","msg":"Stopped system monitor"}

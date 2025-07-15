@@ -1,0 +1,729 @@
+  0%|          | 0/375 [00:00<?, ?it/s]
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [5, '5']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+2025-07-12 18:22:08 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [100, '100']
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+2025-07-12 18:22:08 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [Eq(6*k + x**2 + 20, 0), 'x^2+6k+20=0']
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [{6, 8*,*10}, '6, 8\\text{, }10']
+reward: 0.0
+
+accuracy rewards: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+----------------------------------------------------------------------------------------------------
+
+format rewards: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+{'loss': 0.0, 'grad_norm': 0.0, 'learning_rate': 0.0, 'num_tokens': 25904.0, 'completions/mean_length': 128.0, 'completions/min_length': 128.0, 'completions/max_length': 128.0, 'completions/clipped_ratio': 1.0, 'completions/mean_terminated_length': 0.0, 'completions/min_terminated_length': 0.0, 'completions/max_terminated_length': 0.0, 'rewards/accuracy_reward/mean': 0.0, 'rewards/accuracy_reward/std': 0.0, 'rewards/format_reward/mean': 0.0, 'rewards/format_reward/std': 0.0, 'reward': 0.0, 'reward_std': 0.0, 'frac_reward_zero_std': 1.0, 'clip_ratio/low_mean': 0.0, 'clip_ratio/low_min': 0.0, 'clip_ratio/high_mean': 0.0, 'clip_ratio/high_max': 0.0, 'clip_ratio/region_mean': 0.0, 'epoch': 0.01}
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+2025-07-12 18:22:22 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [322, '210 \\qquad 112']
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [0, '0']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [4/3, '\\frac{4}{3}']
+reward: 0.0
+
+accuracy rewards: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+----------------------------------------------------------------------------------------------------
+
+format rewards: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+{'loss': 0.0, 'grad_norm': 0.0, 'learning_rate': 7.894736842105262e-08, 'num_tokens': 51552.0, 'completions/mean_length': 128.0, 'completions/min_length': 128.0, 'completions/max_length': 128.0, 'completions/clipped_ratio': 1.0, 'completions/mean_terminated_length': 0.0, 'completions/min_terminated_length': 0.0, 'completions/max_terminated_length': 0.0, 'rewards/accuracy_reward/mean': 0.0, 'rewards/accuracy_reward/std': 0.0, 'rewards/format_reward/mean': 0.0, 'rewards/format_reward/std': 0.0, 'reward': 0.0, 'reward_std': 0.0, 'frac_reward_zero_std': 1.0, 'clip_ratio/low_mean': 0.0, 'clip_ratio/low_min': 0.0, 'clip_ratio/high_mean': 0.0, 'clip_ratio/high_max': 0.0, 'clip_ratio/region_mean': 0.0, 'epoch': 0.02}
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+2025-07-12 18:22:32 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [2, '2']
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+2025-07-12 18:22:32 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [Eq(F(x), (x*y)/(x - y)), 'F(x)= \\frac{xy}{x-y}']
+gold_parsed: [3, '3']
+reward: 0.0
+2025-07-12 18:22:32 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [-19, '-19']
+gold_parsed: [3, '3']
+reward: 0.0
+2025-07-12 18:22:32 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: ['\\< (3,5) \\}']
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [3, '3']
+reward: 0.0
+2025-07-12 18:22:32 - WARNING - latex2sympy2_extended.math_normalization - equations is deprecated, as it handled by the parser now
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: [Eq(g(x), 3/f(x)), 'g(x)=3f^{-1}(x)']
+gold_parsed: [3, '3']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+----------------------------------------------------------------------------------------------------
+
+answer_parsed: []
+gold_parsed: [sqrt(5), '\\sqrt{5}']
+reward: 0.0
+
+accuracy rewards: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+----------------------------------------------------------------------------------------------------
+
+format rewards: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 294, in <module>
+    main(script_args, training_args, model_args )
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 258, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3736, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+    return func(self, *args, **kwargs)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1484, in compute_loss
+    return self._compute_loss(model, inputs)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1494, in _compute_loss
+    per_token_logps = self._get_per_token_logps(model, input_ids, attention_mask, logits_to_keep)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+    return func(self, *args, **kwargs)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 949, in _get_per_token_logps
+    logits = model(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/accelerate/utils/operations.py", line 818, in forward
+    return model_forward(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/accelerate/utils/operations.py", line 806, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 856, in forward
+    output = self._fsdp_wrapped_module(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/accelerate/utils/operations.py", line 818, in forward
+    return model_forward(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/accelerate/utils/operations.py", line 806, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/peft/peft_model.py", line 1757, in forward
+    return self.base_model(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 193, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/utils/generic.py", line 965, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 823, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/utils/generic.py", line 965, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 549, in forward
+    layer_outputs = decoder_layer(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 856, in forward
+    output = self._fsdp_wrapped_module(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 278, in forward
+    hidden_states = self.mlp(hidden_states)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 59, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/peft/tuners/lora/bnb.py", line 516, in forward
+    output = lora_B(lora_A(dropout(x))) * scaling
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 842, in forward
+    args, kwargs = _pre_forward(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 382, in _pre_forward
+    unshard_fn(state, handle)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 417, in _pre_forward_unshard
+    _unshard(state, handle, state._unshard_stream, state._pre_unshard_stream)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 296, in _unshard
+    with torch.profiler.record_function(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/autograd/profiler.py", line 788, in __exit__
+    torch.ops.profiler._record_function_exit._RecordFunction(record)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/_ops.py", line 982, in __call__
+    if _must_dispatch_in_python(args, kwargs):
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/_ops.py", line 1036, in _must_dispatch_in_python
+    return pytree.tree_any(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/utils/_pytree.py", line 1416, in tree_any
+    return any(map(pred, flat_args))
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/_ops.py", line 1037, in <lambda>
+    lambda obj: isinstance(
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 294, in <module>
+[rank0]:     main(script_args, training_args, model_args )
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 258, in main
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=checkpoint)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3736, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank0]:     return func(self, *args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1484, in compute_loss
+[rank0]:     return self._compute_loss(model, inputs)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1494, in _compute_loss
+[rank0]:     per_token_logps = self._get_per_token_logps(model, input_ids, attention_mask, logits_to_keep)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank0]:     return func(self, *args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 949, in _get_per_token_logps
+[rank0]:     logits = model(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/accelerate/utils/operations.py", line 818, in forward
+[rank0]:     return model_forward(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/accelerate/utils/operations.py", line 806, in __call__
+[rank0]:     return convert_to_fp32(self.model_forward(*args, **kwargs))
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+[rank0]:     return func(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 856, in forward
+[rank0]:     output = self._fsdp_wrapped_module(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/accelerate/utils/operations.py", line 818, in forward
+[rank0]:     return model_forward(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/accelerate/utils/operations.py", line 806, in __call__
+[rank0]:     return convert_to_fp32(self.model_forward(*args, **kwargs))
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+[rank0]:     return func(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/peft/peft_model.py", line 1757, in forward
+[rank0]:     return self.base_model(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 193, in forward
+[rank0]:     return self.model.forward(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/utils/generic.py", line 965, in wrapper
+[rank0]:     output = func(self, *args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+[rank0]:     return func(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 823, in forward
+[rank0]:     outputs: BaseModelOutputWithPast = self.model(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/utils/generic.py", line 965, in wrapper
+[rank0]:     output = func(self, *args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 549, in forward
+[rank0]:     layer_outputs = decoder_layer(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 856, in forward
+[rank0]:     output = self._fsdp_wrapped_module(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 278, in forward
+[rank0]:     hidden_states = self.mlp(hidden_states)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 59, in forward
+[rank0]:     down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/peft/tuners/lora/bnb.py", line 516, in forward
+[rank0]:     output = lora_B(lora_A(dropout(x))) * scaling
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 842, in forward
+[rank0]:     args, kwargs = _pre_forward(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 382, in _pre_forward
+[rank0]:     unshard_fn(state, handle)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 417, in _pre_forward_unshard
+[rank0]:     _unshard(state, handle, state._unshard_stream, state._pre_unshard_stream)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 296, in _unshard
+[rank0]:     with torch.profiler.record_function(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/autograd/profiler.py", line 788, in __exit__
+[rank0]:     torch.ops.profiler._record_function_exit._RecordFunction(record)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/_ops.py", line 982, in __call__
+[rank0]:     if _must_dispatch_in_python(args, kwargs):
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/_ops.py", line 1036, in _must_dispatch_in_python
+[rank0]:     return pytree.tree_any(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/utils/_pytree.py", line 1416, in tree_any
+[rank0]:     return any(map(pred, flat_args))
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/_ops.py", line 1037, in <lambda>
+[rank0]:     lambda obj: isinstance(
+[rank0]: KeyboardInterrupt

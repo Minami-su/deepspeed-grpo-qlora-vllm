@@ -1,0 +1,7 @@
+{"time":"2025-07-14T16:22:02.050390033+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250714_162202-6igijnf2/logs/debug-core.log"}
+{"time":"2025-07-14T16:22:02.69235837+08:00","level":"INFO","msg":"created new stream","id":"6igijnf2"}
+{"time":"2025-07-14T16:22:02.692402542+08:00","level":"INFO","msg":"stream: started","id":"6igijnf2"}
+{"time":"2025-07-14T16:22:02.692428412+08:00","level":"INFO","msg":"sender: started","stream_id":"6igijnf2"}
+{"time":"2025-07-14T16:22:02.692433174+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"6igijnf2"}
+{"time":"2025-07-14T16:22:02.692483985+08:00","level":"INFO","msg":"handler: started","stream_id":"6igijnf2"}
+{"time":"2025-07-14T16:22:03.196569994+08:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,1 @@
+{"_wandb":{"runtime":19},"profiling/Time taken: SGRPOTrainer._move_lora_to_vllm":5.975254504010081,"_timestamp":1.752488343233292e+09,"_runtime":19.249775864,"_step":1,"train/global_step":0,"profiling/Time taken: SGRPOTrainer.vLLM.generate":8.074014496989548}

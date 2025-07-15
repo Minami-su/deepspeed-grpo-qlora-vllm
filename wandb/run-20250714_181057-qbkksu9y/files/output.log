@@ -1,0 +1,56 @@
+  0%|          | 0/375 [00:00<?, ?it/s]/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py:680: FutureWarning: FSDP.state_dict_type() and FSDP.set_state_dict_type() are being deprecated. Please use APIs, get_state_dict() and set_state_dict(), which can support different parallelisms, FSDP1, FSDP2, DDP. API doc: https://pytorch.org/docs/stable/distributed.checkpoint.html#torch.distributed.checkpoint.state_dict.get_state_dict .Tutorial: https://pytorch.org/tutorials/recipes/distributed_checkpoint_recipe.html .
+  warnings.warn(
+Process 0 finished weight gathering, waiting at barrier...
+Process 0 passed the first barrier.
+Main process is now sending weights to vLLM server...
+Moving LoRA weights to target device: cuda:0
+All LoRA parameters sent. Applying adapter on vLLM server...
+Main process finished all communication with vLLM server.
+Process 0 waiting at the final barrier...
+Process 0 passed the final barrier. _move_lora_to_vllm complete.
+okkkkkkkkkk!1
+okkkkkkkkkk!2
+okkkkkkkkkk!3
+okkkkkkkkkk!4
+okkkkkkkkkk!5
+okkkkkkkkkk!8
+okkkkkkkkkk!9
+okkkkkkkkkk!10
+okkkkkkkkkk!11
+okkkkkkkkkk!12
+Traceback (most recent call last):
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 294, in <module>
+    main(script_args, training_args, model_args )
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 258, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3730, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+    return func(self, *args, **kwargs)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1231, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1388, in _generate_and_score_completions
+    eos_idx = torch.full((is_eos.size(0),), is_eos.size(1), dtype=torch.long, device=device)
+AttributeError: 'bool' object has no attribute 'size'
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 294, in <module>
+[rank0]:     main(script_args, training_args, model_args )
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 258, in main
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=checkpoint)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3730, in training_step
+[rank0]:     inputs = self._prepare_inputs(inputs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank0]:     return func(self, *args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1231, in _prepare_inputs
+[rank0]:     generation_batch = self._generate_and_score_completions(generation_batch)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1388, in _generate_and_score_completions
+[rank0]:     eos_idx = torch.full((is_eos.size(0),), is_eos.size(1), dtype=torch.long, device=device)
+[rank0]: AttributeError: 'bool' object has no attribute 'size'

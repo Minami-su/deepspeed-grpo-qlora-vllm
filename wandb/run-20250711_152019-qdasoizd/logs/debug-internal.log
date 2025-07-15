@@ -1,0 +1,7 @@
+{"time":"2025-07-11T15:20:19.175483824+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250711_152019-qdasoizd/logs/debug-core.log"}
+{"time":"2025-07-11T15:20:22.145582634+08:00","level":"INFO","msg":"created new stream","id":"qdasoizd"}
+{"time":"2025-07-11T15:20:22.146313042+08:00","level":"INFO","msg":"stream: started","id":"qdasoizd"}
+{"time":"2025-07-11T15:20:22.146402996+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"qdasoizd"}
+{"time":"2025-07-11T15:20:22.146402094+08:00","level":"INFO","msg":"sender: started","stream_id":"qdasoizd"}
+{"time":"2025-07-11T15:20:22.146506208+08:00","level":"INFO","msg":"handler: started","stream_id":"qdasoizd"}
+{"time":"2025-07-11T15:20:22.698201311+08:00","level":"INFO","msg":"Starting system monitor"}

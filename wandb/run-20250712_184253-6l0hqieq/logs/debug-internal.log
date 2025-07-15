@@ -1,0 +1,11 @@
+{"time":"2025-07-12T18:42:53.821500226+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250712_184253-6l0hqieq/logs/debug-core.log"}
+{"time":"2025-07-12T18:42:56.725068735+08:00","level":"INFO","msg":"created new stream","id":"6l0hqieq"}
+{"time":"2025-07-12T18:42:56.725189722+08:00","level":"INFO","msg":"stream: started","id":"6l0hqieq"}
+{"time":"2025-07-12T18:42:56.725280892+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"6l0hqieq"}
+{"time":"2025-07-12T18:42:56.725281379+08:00","level":"INFO","msg":"sender: started","stream_id":"6l0hqieq"}
+{"time":"2025-07-12T18:42:56.725313062+08:00","level":"INFO","msg":"handler: started","stream_id":"6l0hqieq"}
+{"time":"2025-07-12T18:42:57.249531976+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-12T18:43:01.507909527+08:00","level":"INFO","msg":"stream: closing","id":"6l0hqieq"}
+{"time":"2025-07-12T18:43:01.507953544+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-12T18:43:01.508037411+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-12T18:43:02.463213021+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

@@ -1,0 +1,3 @@
+- training X-R1-zero 0.5B/1.5B/3B
+- training chinese math reasoning
+- training LoRA in single GPU

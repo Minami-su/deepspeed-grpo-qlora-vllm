@@ -1,0 +1,7 @@
+{"time":"2025-07-13T13:07:26.471552096+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250713_130726-dpst5go3/logs/debug-core.log"}
+{"time":"2025-07-13T13:07:30.016499605+08:00","level":"INFO","msg":"created new stream","id":"dpst5go3"}
+{"time":"2025-07-13T13:07:30.018051531+08:00","level":"INFO","msg":"stream: started","id":"dpst5go3"}
+{"time":"2025-07-13T13:07:30.018077625+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"dpst5go3"}
+{"time":"2025-07-13T13:07:30.018073165+08:00","level":"INFO","msg":"handler: started","stream_id":"dpst5go3"}
+{"time":"2025-07-13T13:07:30.018119571+08:00","level":"INFO","msg":"sender: started","stream_id":"dpst5go3"}
+{"time":"2025-07-13T13:07:30.335811544+08:00","level":"INFO","msg":"Starting system monitor"}

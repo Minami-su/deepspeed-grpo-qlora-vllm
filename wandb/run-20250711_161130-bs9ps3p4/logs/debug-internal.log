@@ -1,0 +1,15 @@
+{"time":"2025-07-11T16:11:30.55124837+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250711_161130-bs9ps3p4/logs/debug-core.log"}
+{"time":"2025-07-11T16:11:33.678196814+08:00","level":"INFO","msg":"created new stream","id":"bs9ps3p4"}
+{"time":"2025-07-11T16:11:33.678293213+08:00","level":"INFO","msg":"stream: started","id":"bs9ps3p4"}
+{"time":"2025-07-11T16:11:33.67831006+08:00","level":"INFO","msg":"sender: started","stream_id":"bs9ps3p4"}
+{"time":"2025-07-11T16:11:33.67835112+08:00","level":"INFO","msg":"handler: started","stream_id":"bs9ps3p4"}
+{"time":"2025-07-11T16:11:33.67831775+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"bs9ps3p4"}
+{"time":"2025-07-11T16:11:34.077346873+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-11T16:11:52.589352929+08:00","level":"INFO","msg":"stream: closing","id":"bs9ps3p4"}
+{"time":"2025-07-11T16:11:52.589412546+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-11T16:11:52.589483729+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-11T16:11:53.609075551+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-11T16:11:56.302723817+08:00","level":"INFO","msg":"handler: closed","stream_id":"bs9ps3p4"}
+{"time":"2025-07-11T16:11:56.302834431+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bs9ps3p4"}
+{"time":"2025-07-11T16:11:56.302849966+08:00","level":"INFO","msg":"sender: closed","stream_id":"bs9ps3p4"}
+{"time":"2025-07-11T16:11:56.302954791+08:00","level":"INFO","msg":"stream: closed","id":"bs9ps3p4"}

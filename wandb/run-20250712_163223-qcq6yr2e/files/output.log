@@ -1,0 +1,44 @@
+  0%|          | 0/375 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 294, in <module>
+    main(script_args, training_args, model_args )
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 258, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3730, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+    return func(self, *args, **kwargs)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1109, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1202, in _generate_and_score_completions
+    self._move_lora_to_vllm()
+  File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+    return func(self, *args, **kwargs)
+  File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1075, in _move_lora_to_vllm
+    self.vllm_client.apply_lora(self.lora_config)
+AttributeError: 'VLLMClient' object has no attribute 'apply_lora'
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 294, in <module>
+[rank0]:     main(script_args, training_args, model_args )
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/sgrpo.py", line 258, in main
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=checkpoint)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/transformers/trainer.py", line 3730, in training_step
+[rank0]:     inputs = self._prepare_inputs(inputs)
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank0]:     return func(self, *args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1109, in _prepare_inputs
+[rank0]:     generation_batch = self._generate_and_score_completions(generation_batch)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1202, in _generate_and_score_completions
+[rank0]:     self._move_lora_to_vllm()
+[rank0]:   File "/data/jcxy/haolu/anaconda3/envs/haolu/lib/python3.10/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank0]:     return func(self, *args, **kwargs)
+[rank0]:   File "/data/jcxy/haolu/workspace/frameworks/X-R1/src/x_r1/s_grpo_trainer.py", line 1075, in _move_lora_to_vllm
+[rank0]:     self.vllm_client.apply_lora(self.lora_config)
+[rank0]: AttributeError: 'VLLMClient' object has no attribute 'apply_lora'

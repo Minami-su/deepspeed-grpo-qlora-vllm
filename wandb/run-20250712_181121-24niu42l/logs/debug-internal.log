@@ -1,0 +1,10 @@
+{"time":"2025-07-12T18:11:21.450850123+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/data/jcxy/haolu/workspace/frameworks/X-R1/wandb/run-20250712_181121-24niu42l/logs/debug-core.log"}
+{"time":"2025-07-12T18:11:23.295459271+08:00","level":"INFO","msg":"created new stream","id":"24niu42l"}
+{"time":"2025-07-12T18:11:23.296904244+08:00","level":"INFO","msg":"stream: started","id":"24niu42l"}
+{"time":"2025-07-12T18:11:23.296988201+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"24niu42l"}
+{"time":"2025-07-12T18:11:23.29710737+08:00","level":"INFO","msg":"handler: started","stream_id":"24niu42l"}
+{"time":"2025-07-12T18:11:23.296980921+08:00","level":"INFO","msg":"sender: started","stream_id":"24niu42l"}
+{"time":"2025-07-12T18:11:23.844323982+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-12T18:12:30.507624506+08:00","level":"INFO","msg":"stream: closing","id":"24niu42l"}
+{"time":"2025-07-12T18:12:30.507647718+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-12T18:12:30.507685022+08:00","level":"INFO","msg":"Stopped system monitor"}

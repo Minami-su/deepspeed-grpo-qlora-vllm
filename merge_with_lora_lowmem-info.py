@@ -14,7 +14,7 @@ args = parser.parse_args()
 input_lora = args.input_lora
 ckpt=args.input_model
 output_dir=args.output_model
-#output_dir=f"/data/haolu/ckpt/Meta-Llama-3-8B-Master-DPO-hard-iter{args.iter}"
+
 tokenizer = AutoTokenizer.from_pretrained(ckpt,trust_remote_code=True)
 # Original method without offloading
 model = AutoModelForCausalLM.from_pretrained(

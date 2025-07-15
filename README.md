@@ -33,11 +33,11 @@ baseline
 
 ### Benchmark Results (GSM8K)
 
-| Model Version | GSM8K Avg. Score |
-| :----------------------- | :----------------: |
-| `Qwen2-0.5B` | **14.2** |
-| `Qwen2-0.5B-X-R1` (Standard LoRA) | **21.2** |
-| `Qwen2-0.5B-X-R1-QLoRA-V3` (QLoRA) | **26.2** |
+| Model Version | GSM8K Avg. Score | gaokao2023en Avg. Score |
+| :----------------------- | :----------------: | :----------------: |
+| `Qwen2-0.5B` | **14.2** | **8.8** |
+| `Qwen2-0.5B-X-R1` (Standard LoRA) | **24.7** | **14.5** |
+| `Qwen2-0.5B-X-R1-QLoRA-V3` (QLoRA) | **26.2** | **16.9** |
 
 Running Scripts:
 

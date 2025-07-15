@@ -19,10 +19,10 @@ With QLoRA (4-bit, gradient checkpointing)
 <img width="647" height="280" alt="Pasted image 20250715102122" src="https://github.com/user-attachments/assets/53f4907f-4952-46e6-9669-feeb66ddd4d2" />
 </p>
 
-With gradient checkpointing
+With gradient checkpointing (Enabling gradient checkpointing saves approximately 20% of GPU memory, but it comes at the cost of a 30% reduction in training speed.)
 
 <p align="left">
-<img width="640" height="278" alt="企业微信截图_17525510581488" src="https://github.com/user-attachments/assets/97fd1501-d1f5-4da0-a930-d30dc9e0991b" />
+<img width="640" height="278" alt="Pasted image 17525510581488" src="https://github.com/user-attachments/assets/97fd1501-d1f5-4da0-a930-d30dc9e0991b" />
 </p>
 
 baseline

@@ -48,8 +48,30 @@ bash ./scripts/run_x_r1_zero.sh
 
 ### Example: GRPO + QLoRA
 
-1. multi-gpu run:
+1. start vllm server:
+```bash
+PORT=8000
+# Set the path to your LLM model
+MODEL_PATH=Qwen2.5-0.5B
+# Set the target GPU card index you want to clear and use (e.g., 4 for GPU 4)
+GPU=5
+VLLM_WORKER_MULTIPROC_METHOD=spawn VLLM_USE_V1=1 CUDA_VISIBLE_DEVICES=$GPU trl vllm-serve \
+    --model $MODEL_PATH \
+    --enforce-eager \
+    --dtype bfloat16 \
+    --tensor_parallel_size 1 \
+    --gpu_memory_utilization 0.9 \
+    --max-model-len 8000 \
+    --enable_lora \
+    --max_lora_rank=512 \
+    --max_cpu_loras=1 \
+    --log_level "debug" \
+    --port $PORT
 
+echo "VLLM server command has been executed."
+```
+
+2. start trainer:
 ```bash
 CUDA_VISIBLE_DEVICES="2,3,4" ACCELERATE_LOG_LEVEL=info accelerate launch --main_process_port 7832 \
     --config_file recipes/zero3.yaml \

@@ -41,11 +41,6 @@ baseline
 
 Running Scripts:
 
-```bash
-bash ./scripts/run_x_r1_zero.sh
-```
-
-
 ### Example: GRPO + QLoRA
 
 1. start vllm server:

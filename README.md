@@ -42,7 +42,7 @@ training config
 | Model                 | 0.5B                                                                                         | 0.5B                                                                                         |
 | --------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | TargetModel           | X-R1-0.5B                                                                                    | X-R1-0.5B-Qlora                                                                              |
-| GPU                   | 4xA800                                                                                       | 4xA800                                                                                       |
+| GPU                   | 4xA800 (3xA800+1xA800vllm)                                                                   | 4xA800 (3xA800+1xA800vllm)                                                                   |
 | Base                  | Qwen/Qwen2.5-0.5B                                                                            | Qwen/Qwen2.5-0.5B                                                                            |
 | Dataset               | X-R1-750                                                                                     | X-R1-750                                                                                     |
 | Config: recipes       | X_R1_zero_0dot5B_peft_config.yaml                                                            | X_R1_zero_0dot5B_peft_config_4bit.yaml                                                       |

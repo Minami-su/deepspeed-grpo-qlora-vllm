@@ -72,6 +72,10 @@ echo "VLLM server command has been executed."
 
 2. start trainer:
 ```bash
+OUTPUT_MODEL="Qwen2.5-0.5B"
+OUTPUT_MODEL2="Qwen2.5-0.5B-X-R1-QloraV4"
+CHECKPOINT_DIR2="X-R1-test-QloraV4"
+
 CUDA_VISIBLE_DEVICES="2,3,4" ACCELERATE_LOG_LEVEL=info accelerate launch --main_process_port 7832 \
     --config_file recipes/zero3.yaml \
     --num_processes=3 src/x_r1/sgrpo.py \
@@ -79,6 +83,26 @@ CUDA_VISIBLE_DEVICES="2,3,4" ACCELERATE_LOG_LEVEL=info accelerate launch --main_
     --model_name_or_path=${OUTPUT_MODEL} \
     --output_dir=${CHECKPOINT_DIR2} \
     > output/x_r1_0dotB_sampling.log 2>&1
+```
+
+3. merge model
+```bash
+# Automatically find the latest checkpoint folder based on modification time
+LATEST_CHECKPOINT=$(ls -td ${CHECKPOINT_DIR2}/checkpoint-* | head -n 1)
+
+# If no checkpoint is found, exit
+if [ -z "$LATEST_CHECKPOINT" ]; then
+    echo "No checkpoint found in ${CHECKPOINT_DIR}"
+    exit 1
+fi
+
+# Print the latest checkpoint folder for logging
+echo "Using latest checkpoint: $LATEST_CHECKPOINT"
+
+CUDA_VISIBLE_DEVICES=4 python merge_with_lora_lowmem-info.py \
+    --input_model ${OUTPUT_MODEL} \
+    --input_lora ${LATEST_CHECKPOINT} \
+    --output_model ${OUTPUT_MODEL2}
 ```
 
 ## Installation

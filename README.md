@@ -1,4 +1,4 @@
-#Modified code From [https://github.com/vllm-project/vllm/pull/12609](https://github.com/dhcode-cpp/X-R1)
+#Modified code From [X-R1](https://github.com/dhcode-cpp/X-R1)
 
 ## Feature
 

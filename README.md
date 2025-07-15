@@ -8,17 +8,28 @@
 训练模型Qwen2.5-0.5b，使用deepspeed-zero3+Qlora+GRPO+vllm+gradient_checkpointing的gpu内存使用量，相比deepspeed-zero3+lora+GRPO+vllm+gradient_checkpointing，的显存使用量能够节省30%，速度基本保持不变
 
 使用了load in 4bit  double quant nf4
+
+<p align="left">
 <img width="644" height="272" alt="Pasted image 20250715115423" src="https://github.com/user-attachments/assets/43f539d4-8639-45d2-928c-0b4d6fe4cd38" />
+</p>
 
 使用了load in 4bit 
+
+<p align="left">
 <img width="647" height="280" alt="Pasted image 20250715102122" src="https://github.com/user-attachments/assets/53f4907f-4952-46e6-9669-feeb66ddd4d2" />
+</p>
 
 未使用Qlora的
+
+<p align="left">
 <img width="640" height="278" alt="企业微信截图_17525510581488" src="https://github.com/user-attachments/assets/97fd1501-d1f5-4da0-a930-d30dc9e0991b" />
+</p>
 
 未使用Qlora，未使用gradient_checkpointing
-<img width="644" height="276" alt="Pasted image 20250714185922" src="https://github.com/user-attachments/assets/9cd0a5f4-8e03-416d-a351-364d805b0667" />
 
+<p align="left">
+<img width="644" height="276" alt="Pasted image 20250714185922" src="https://github.com/user-attachments/assets/9cd0a5f4-8e03-416d-a351-364d805b0667" />
+</p>
 
 ### Overview
 Qwen2.5-0.5B-X-R1 gsm8k   avg  

@@ -13,3 +13,4 @@ packaging
 parameterized
 pytest
 sentencepiece
+git+https://github.com/Minami-su/trl.git

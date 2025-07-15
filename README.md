@@ -6,7 +6,7 @@
 
 ## Result
 
-Training the Qwen2-0.5B model with a stack of DeepSpeed ZeRO-3, QLoRA, GRPO, VLLM, and gradient checkpointing reduces GPU memory usage by 30% compared to a similar setup using standard LoRA. This memory saving is achieved with virtually no impact on training speed.
+Training the Qwen2-0.5B model with a stack of DeepSpeed ZeRO-3, QLoRA, GRPO, VLLM, and gradient checkpointing reduces GPU memory usage by 30% compared to a similar setup using standard LoRA.
 
 With QLoRA (4-bit, double quantization, nf4, gradient checkpointing)
 
@@ -34,6 +34,23 @@ baseline
 ### training detail
 
 <img width="1503" height="626" alt="image" src="https://github.com/user-attachments/assets/23015734-291b-4304-94ea-8775366bac82" />
+
+
+
+training config
+
+| Model                 | 0.5B                                                                                         | 0.5B                                                                                         |
+| --------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| TargetModel           | X-R1-0.5B                                                                                    | X-R1-0.5B-Qlora                                                                              |
+| GPU                   | 4xA800                                                                                       | 4xA800                                                                                       |
+| Base                  | Qwen/Qwen2.5-0.5B                                                                            | Qwen/Qwen2.5-0.5B                                                                            |
+| Dataset               | X-R1-750                                                                                     | X-R1-750                                                                                     |
+| Config: recipes       | X_R1_zero_0dot5B_peft_config.yaml                                                            | X_R1_zero_0dot5B_peft_config_4bit.yaml                                                       |
+| num_generations       | 16                                                                                           | 16                                                                                           |
+| max_completion_length | 1024                                                                                         | 1024                                                                                         |
+| num_train_epochs      | 3                                                                                            | 3                                                                                            |
+| Times                 | 1:17:56                                                                                      | 1:45:42                                                                                      |
+
 
 ### Benchmark Results (GSM8K)
 
